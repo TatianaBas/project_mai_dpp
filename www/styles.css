@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono";
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  background-image: url('back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 22px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1% 5%;
+
+}
+
+header nav ul li {
+  position: relative;
+  float: left;
+  list-style: none;
+}
+
+header nav ul li a{
+  padding: 15px;
+  color:black;
+  font-size: 22px;
+  display: block;
+}
+#rectangle{
+    position: relative;
+    /*top:  50%;*/
+    left: 15%;
+    /*transform: translate(-50%,-50%);*/
+    margin:auto;
+    display: flex;
+
+    width:200px;
+    height:40px;
+    background: #2CD2F8;
+
+    box-shadow: 0 3px 10px;
+}
+
+#IdentiFile{
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  padding: 5%;
+}
+
+#icon1{
+  padding: 0 5%;
+}
+
+#main_rectangle{
+  position: relative;
+
+  top: 20%;
+  left: 10%;
+  /*height: 70%;*/
+  width: 80%;
+  border-radius: 10px;
+
+  background: #ffffff;
+}
+
+#main_text{
+  padding: 5% 5%;
+}
+
+div ul{
+  padding: 0 5%;
+}
+
+div ul li{
+  color: #2ED8FB;
+}
+div ul li span{
+  color: black;
+}
+
+.btn-group__b{
+  display: flex;
+
+}
+
+.btn{
+  color: #fff;
+  background-color: #001A40;
+  padding: 20px 35px;
+  font-size: 22px;
+  border-radius: 10px;
+  border-style: none;
+  margin: 0 auto;
+
+}
+
+.btn-group__text{
+  font-size: 22px;
+  text-align: center;
+}
+
+.inp_btn{
+  display: block;
+  position: absolute;
+  width: 220px;
+  height: 90px;
+  margin-left: 350px;
+  opacity: 0;
+}
+
+
